@@ -1,6 +1,12 @@
 *
 
+!.gitignore
 !vimrc
 !README.md
 !makefile
-!/UltiSnips
+
+!UltiSnips/
+!UltiSnips/*
+
+!spell/
+!spell/*
