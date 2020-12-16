@@ -98,7 +98,7 @@ set foldmethod=indent
 set foldlevel=99
 set t_Co=256
 set spell
-set spelllang=en_uk
+" set spelllang=en_uk
 "set nospell
 " -------------------------------
 " PLUGIN OPTIONS ----------------
