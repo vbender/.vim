@@ -97,9 +97,9 @@ set listchars=tab:▸\ ,eol:¬
 set foldmethod=indent
 set foldlevel=99
 set t_Co=256
-set spell
-set spelllang=en
-"set nospell
+"set spell
+"set spelllang=en
+set nospell
 " -------------------------------
 " PLUGIN OPTIONS ----------------
 " -------------------------------
