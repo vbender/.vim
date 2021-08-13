@@ -18,7 +18,7 @@ Plugin 'lervag/vimtex'
 Plugin 'sirver/ultisnips' 
 Plugin 'honza/vim-snippets'
 Plugin 'MaxMEllon/vim-jsx-pretty'
-Plugin 'Yggdroot/indentLine'
+"Plugin 'Yggdroot/indentLine'
 Plugin 'psliwka/vim-smoothie'
 "Plugin 'ervandew/supertab'
 "Plugin 'severin-lemaignan/vim-minimap'
@@ -130,9 +130,9 @@ let g:tex_conceal='abdmg'
 "let g:UltiSnipsExpandTrigger="<tab>"
 "let g:UltiSnipsJumpForwardTrigger="<tab>"
 "let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-let g:UltiSnipsExpandTrigger = '<C-l>'
-let g:UltiSnipsJumpForwardTrigger = '<C-l>'
-let g:UltiSnipsJumpBackwardTrigger = '<C-h>'
+let g:UltiSnipsExpandTrigger = '<C-i>'
+let g:UltiSnipsJumpForwardTrigger = '<C-m>'
+let g:UltiSnipsJumpBackwardTrigger = '<C-n>'
 let g:UltiSnipsEditSplit="vertical"
 let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/UltiSnips']
 
