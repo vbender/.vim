@@ -1,4 +1,4 @@
-filetype off 
+filetype on
 "set nocompatible          
 
 " -------------------------------
@@ -98,8 +98,7 @@ set foldmethod=indent
 set foldlevel=99
 set t_Co=256
 "set spell
-"set spelllang=en
-set nospell
+
 " -------------------------------
 " PLUGIN OPTIONS ----------------
 " -------------------------------
@@ -130,7 +129,7 @@ let g:tex_conceal='abdmg'
 "let g:UltiSnipsExpandTrigger="<tab>"
 "let g:UltiSnipsJumpForwardTrigger="<tab>"
 "let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-let g:UltiSnipsExpandTrigger = '<C-i>'
+"let g:UltiSnipsExpandTrigger = '<C-i>'
 let g:UltiSnipsJumpForwardTrigger = '<C-m>'
 let g:UltiSnipsJumpBackwardTrigger = '<C-n>'
 let g:UltiSnipsEditSplit="vertical"
