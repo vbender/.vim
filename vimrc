@@ -97,7 +97,6 @@ set listchars=tab:▸\ ,eol:¬
 set foldmethod=indent
 set foldlevel=99
 set t_Co=256
-"set spell
 
 " -------------------------------
 " PLUGIN OPTIONS ----------------
@@ -120,7 +119,7 @@ let g:ycm_min_num_of_chars_for_completion = 1
 
 " Vimtex settings
 let g:tex_flavor='latex'
-let g:vimtex_view_method='zathura'
+let g:vimtex_view_method='general'
 let g:vimtex_quickfix_mode=0
 set conceallevel=1
 let g:tex_conceal='abdmg'
