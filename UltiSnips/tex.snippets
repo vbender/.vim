@@ -131,6 +131,22 @@ snippet v "vec" i
 \mathbf{$1}
 endsnippet
 
+snippet 2v "vec" i
+\begin{pmatrix}
+$1 \\\\
+$2 
+\end{pmatrix}
+endsnippet
+
+snippet 3v "vec" i
+\begin{pmatrix}
+$1 \\
+$2 \\
+$3
+\end{pmatrix}
+endsnippet
+
+
 snippet img "imageinclude" i
 \img[1.0]{chapters/$1}{caption$2}{fig:$3}
 endsnippet
@@ -186,4 +202,15 @@ endsnippet
 snippet tb "textcolorBlue" i
 \textcolor{blue}{$1} $0
 endsnippet	
-	
+
+snippet exp "exponential" i
+\mathrm{e}^{$1} $0
+endsnippet	
+
+snippet imag "imaginary" i
+\mathrm{i}
+endsnippet	
+
+snippet hami "hamiltonian" i
+\hat{H}
+endsnippet
