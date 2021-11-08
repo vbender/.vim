@@ -179,12 +179,12 @@ nnoremap <leader>b :3<CR>
 nnoremap <leader>s mp[s1z=`p
 "noremap <leader>so :w<CR> :source vimrc<CR>
 
-inoremap {      {}<Left>
-inoremap {<CR>  {<CR>}<Esc>O
-inoremap {{     {
-inoremap {}     {}
-
-inoremap (      ()<Left>
-inoremap (<CR>  (<CR>)<Esc>O
-inoremap ((     (
-inoremap ()     ()
+"inoremap {      {}<Left>
+"inoremap {<CR>  {<CR>}<Esc>O
+"inoremap {{     {
+"inoremap {}     {}
+"
+"inoremap (      ()<Left>
+"inoremap (<CR>  (<CR>)<Esc>O
+"inoremap ((     (
+"inoremap ()     ()
