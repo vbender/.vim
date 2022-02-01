@@ -35,15 +35,15 @@ snippet cb "^3" iA
 ^3
 endsnippet
 
-snippet compl "complement" iA
+snippet compl "complement" i
 ^{c}
 endsnippet
 
-snippet td "superscript" iA
+snippet td "superscript" i
 ^{$1}$0
 endsnippet
 
-snippet tw "subscript" iA
+snippet tw "subscript" i
 _{$1}$0
 endsnippet
 
@@ -94,7 +94,7 @@ snip.rv = eval('latex(' + match.group(1).replace('\\', '') \
 endsnippet
 
 priority 10
-snippet "hat" "hat" riA
+snippet "hat" "hat" ri
 \hat{$1}$0
 endsnippet
 
