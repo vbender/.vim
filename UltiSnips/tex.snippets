@@ -93,10 +93,6 @@ snip.rv = eval('latex(' + match.group(1).replace('\\', '') \
 `
 endsnippet
 
-priority 10
-snippet "hat" "hat" ri
-\hat{$1}$0
-endsnippet
 
 priority 100
 snippet "([a-zA-Z])hat" "hat" riA
@@ -130,11 +126,6 @@ endsnippet
 snippet v "vec" i
 \mathbf{$1}
 endsnippet
-
-snippet vg "greek vector" i
-\pmb{$1}
-endsnippet
-
 
 snippet 2v "vec" i
 \begin{pmatrix}
