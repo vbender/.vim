@@ -97,6 +97,10 @@ set listchars=tab:▸\ ,eol:¬
 set foldmethod=indent
 set foldlevel=99
 set t_Co=256
+set spell
+set spelllang=en_us
+
+
 
 " -------------------------------
 " PLUGIN OPTIONS ----------------
@@ -159,7 +163,7 @@ nnoremap <space> za
 inoremap <F1> <ESC>:set invfullscreen<CR>a
 nnoremap <F1> :set invfullscreen<CR>
 vnoremap <F1> :set invfullscreen<CR>
-nnoremap <buffer> <F9> :w<cr> :exec '!python3' shellescape(@%, 1)<cr>
+nnoremap <buffer> <F9> :w<cr> :exec '!python3.11' shellescape(@%, 1)<cr>
 
 nnoremap <leader>- <c-w><<c-w><<c-w><<c-w><<c-w><<c-w><<c-w><<c-w><
 nnoremap <leader>+ <c-w>><c-w>><c-w>><c-w>><c-w>><c-w>><c-w>><c-w>>
@@ -175,7 +179,7 @@ nnoremap <leader>k <C-w>k
 nnoremap <leader>q :q<CR>
 nnoremap <leader>t :NERDTreeToggle<CR>
 nnoremap <leader>n n@:
-nnoremap <leader>b :3<CR>
+nnoremap <leader>b :b#<CR>
 nnoremap <leader>s mp[s1z=`p
 "noremap <leader>so :w<CR> :source vimrc<CR>
 
