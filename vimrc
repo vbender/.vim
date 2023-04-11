@@ -163,7 +163,7 @@ nnoremap <space> za
 inoremap <F1> <ESC>:set invfullscreen<CR>a
 nnoremap <F1> :set invfullscreen<CR>
 vnoremap <F1> :set invfullscreen<CR>
-nnoremap <buffer> <F9> :w<cr> :exec '!python3.11' shellescape(@%, 1)<cr>
+nnoremap <buffer> <F9> :w<cr> :exec '!python3' shellescape(@%, 1)<cr>
 
 nnoremap <leader>- <c-w><<c-w><<c-w><<c-w><<c-w><<c-w><<c-w><<c-w><
 nnoremap <leader>+ <c-w>><c-w>><c-w>><c-w>><c-w>><c-w>><c-w>><c-w>>
